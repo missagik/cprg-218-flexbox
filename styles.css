@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #dccfba;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+main{
+    display:flex;
+    gap: 1rem;
+    background-color: #dccfba;
+}
+
+main section{
+    flex:1;
+    border: 1px solid black;
+    background-color: white;
+}
+
+section h2{
+    background-color: rgb(65, 14, 22);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+section li span{
+    font-weight: bold;
+}
